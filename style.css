@@ -20,10 +20,11 @@ a:hover {
 
 /* Hero */
 #economic-opp img {
-  height: 80%;
+  /* height: 80%; */
   width: 100%;
   object-fit: cover;
   border-radius: 30px;
+  aspect-ratio: 1.2;
 }
 
 .container {
@@ -80,6 +81,9 @@ a:hover {
   margin-bottom: 20px;
   width: 100%;
 }
+.category-text {
+  margin-top: 20px;
+}
 
 /* Footer   */
 footer {
@@ -104,3 +108,4 @@ footer {
   margin-right: 80px;
   list-style-type: none;
 }
+
